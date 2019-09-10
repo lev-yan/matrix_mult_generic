@@ -1,0 +1,23 @@
+.PHONE: WELCOME
+.PHONE: COMP
+.PHONE: RUN
+
+
+
+ALL: WELCOME COMP RUN;
+
+WELCOME: 
+	@echo "##############################################"
+	@echo "###### TEST PROGRAM  v1.01 ###################"
+	@echo "##############################################"
+	@echo " "
+COMP:
+	@echo " Compile test program"
+	@echo " Please wait...."
+	gcc test.cpp -o test -lstdc++
+	
+
+RUN:
+	@echo " I am running test executable file"
+	@echo " Creating expectation file "
+	./test	

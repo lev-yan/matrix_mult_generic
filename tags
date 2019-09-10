@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FileWriter	generation.cpp	/^	FileWriter(const char * fn ):fileName(fn)$/;"	f	struct:FileWriter
+FileWriter	generation.cpp	/^struct FileWriter$/;"	s	file:
+InputMatrixDimensions	operation.cpp	/^void InputMatrixDimensions( unsigned int & M, $/;"	f
+InsertMatrixDimensions	generation.cpp	/^void InsertMatrixDimensions(unsigned int & M, unsigned int & N, unsigned int &  K,$/;"	f
+Matrix	operation.cpp	/^	Matrix( const unsigned int R ,const  unsigned int C)$/;"	f	struct:Matrix
+Matrix	operation.cpp	/^struct Matrix$/;"	s	file:
+Matrix	test.cpp	/^	Matrix(unsigned row , unsigned col) : m_row( row), m_col( col)$/;"	f	struct:Matrix
+Matrix	test.cpp	/^struct Matrix$/;"	s	file:
+Matrix1	main.cpp	/^struct Matrix1{};$/;"	s	file:
+Matrix2	main.cpp	/^struct Matrix2{};$/;"	s	file:
+ReadFile	operation.cpp	/^	ReadFile (const char * fn):filename(fn)$/;"	f	struct:ReadFile
+ReadFile	operation.cpp	/^struct ReadFile$/;"	s	file:
+ReadFile	test.cpp	/^	ReadFile( const char * fn):filename(fn)$/;"	f	struct:ReadFile
+ReadFile	test.cpp	/^struct ReadFile$/;"	s	file:
+WriteFile	operation.cpp	/^	WriteFile( const char * fn):filename(fn)$/;"	f	struct:WriteFile
+WriteFile	operation.cpp	/^struct WriteFile$/;"	s	file:
+WriteFile	test.cpp	/^	WriteFile(const char * fn) : filename( fn )$/;"	f	struct:WriteFile
+WriteFile	test.cpp	/^struct WriteFile$/;"	s	file:
+addMatrix	operation.cpp	/^void addMatrix( Matrix & from1 , Matrix & from2 , Matrix & to )$/;"	f
+check	test.cpp	/^bool check( Matrix & from_result, Matrix & from_expect , WriteFile & to_log  )$/;"	f
+fileName	generation.cpp	/^	const char * fileName;$/;"	m	struct:FileWriter	file:
+file_stream	operation.cpp	/^	std::ifstream file_stream;$/;"	m	struct:ReadFile	file:
+file_stream	operation.cpp	/^	std::ofstream file_stream;	$/;"	m	struct:WriteFile	file:
+filename	operation.cpp	/^	const char * filename;$/;"	m	struct:ReadFile	file:
+filename	operation.cpp	/^	const char *filename;$/;"	m	struct:WriteFile	file:
+filename	test.cpp	/^	const char * filename;$/;"	m	struct:ReadFile	file:
+filename	test.cpp	/^	const char * filename;$/;"	m	struct:WriteFile	file:
+fillMatrixValue	generation.cpp	/^void fillMatrixValue(FileWriter & fw, unsigned int row,$/;"	f
+getMatrixCol	operation.cpp	/^	int getMatrixCol()$/;"	f	struct:Matrix
+getMatrixCol	test.cpp	/^	int getMatrixCol() const$/;"	f	struct:Matrix
+getMatrixRow	operation.cpp	/^	int getMatrixRow()$/;"	f	struct:Matrix
+getMatrixRow	test.cpp	/^	int getMatrixRow() const $/;"	f	struct:Matrix
+like_pipe	generation.cpp	/^	std::ofstream like_pipe;$/;"	m	struct:FileWriter	file:
+like_pipe	test.cpp	/^	std::ifstream like_pipe;$/;"	m	struct:ReadFile	file:
+like_pipe	test.cpp	/^	std::ofstream like_pipe;$/;"	m	struct:WriteFile	file:
+m_array	operation.cpp	/^	int * m_array;$/;"	m	struct:Matrix	file:
+m_array	test.cpp	/^	int * m_array;$/;"	m	struct:Matrix	file:
+m_col	operation.cpp	/^	const unsigned int m_col;$/;"	m	struct:Matrix	file:
+m_col	test.cpp	/^	unsigned int m_col;$/;"	m	struct:Matrix	file:
+m_row	operation.cpp	/^	const unsigned int m_row;$/;"	m	struct:Matrix	file:
+m_row	test.cpp	/^	unsigned int m_row;$/;"	m	struct:Matrix	file:
+main	generation.cpp	/^int main()$/;"	f
+main	main.cpp	/^int main()$/;"	f
+main	operation.cpp	/^int main()$/;"	f
+main	test.cpp	/^int main()$/;"	f
+multMatrix	operation.cpp	/^void multMatrix( Matrix & from1 ,  Matrix & from2, Matrix & to )$/;"	f
+my_read	operation.cpp	/^	bool my_read(int &i)$/;"	f	struct:ReadFile
+my_read	test.cpp	/^	bool my_read(int &x)$/;"	f	struct:ReadFile
+my_write	operation.cpp	/^	bool my_write( int & i)$/;"	f	struct:WriteFile
+my_write	test.cpp	/^	bool my_write( int & x)$/;"	f	struct:WriteFile
+operator ()	operation.cpp	/^	int & operator()( const int i,const int j)$/;"	f	struct:Matrix
+operator ()	test.cpp	/^	int & operator() ( unsigned int i, unsigned int j)$/;"	f	struct:Matrix
+readMatrix	operation.cpp	/^bool readMatrix( Matrix & to ,  ReadFile & from )$/;"	f
+readMatrix	test.cpp	/^bool readMatrix( Matrix & to, ReadFile & from)$/;"	f
+sum_matrix	main.cpp	/^void sum_matrix(const T & m1,const T & m2, T & m)$/;"	f
+write	generation.cpp	/^	bool  write(int x)$/;"	f	struct:FileWriter
+write	generation.cpp	/^	bool write(char c)$/;"	f	struct:FileWriter
+writeMatrix	operation.cpp	/^bool  writeMatrix( Matrix & from  ,WriteFile & to )$/;"	f
+~FileWriter	generation.cpp	/^	~FileWriter()$/;"	f	struct:FileWriter
+~Matrix	test.cpp	/^	~Matrix()$/;"	f	struct:Matrix
+~ReadFile	operation.cpp	/^	~ReadFile()$/;"	f	struct:ReadFile
+~ReadFile	test.cpp	/^	~ReadFile()$/;"	f	struct:ReadFile
+~WriteFile	operation.cpp	/^	~WriteFile()$/;"	f	struct:WriteFile
+~WriteFile	test.cpp	/^	~WriteFile() $/;"	f	struct:WriteFile
